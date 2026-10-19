@@ -176,4 +176,5 @@ STORAGES = {
 # cierre del diccionario STORAGES
 }
 
-LOGIN_URL = '/admin/login/'
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'servicios'
